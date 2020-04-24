@@ -1,0 +1,45 @@
+html {
+  font-size: 1;
+}
+body {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 100vh;
+  background: #f5f5f9;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: PingFang SC,Helvetica Neue,Hiragino Sans GB,Helvetica,Microsoft YaHei,Arial;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.search-wrapper {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  overflow: hidden;
+}
+.green {
+  color: #28c551;
+}
+.red {
+  color: #e94f4f;
+}
+.origin {
+  color: #f76a24;
+}
+.card-content {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.am-card-header-extra {
+  font-size: 15px;
+}
